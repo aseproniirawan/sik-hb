@@ -37,9 +37,6 @@
 $active_group = "default";
 $active_record = TRUE;
 
-/* $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "root";
-$db['default']['password'] = '';   */
 $db['default']['hostname'] = "localhost";
 $db['default']['username'] = "roni";
 $db['default']['password'] = '771991';
@@ -56,37 +53,3 @@ $db['default']['dbcollat'] = "utf8_general_ci";
 
 /* End of file database.php */
 /* Location: ./system/application/config/database.php */
-
-//=======================================
-/* $db['second']['hostname'] = "localhost";
-$db['second']['username'] = "root";
-$db['second']['password'] = "";
-$db['second']['database'] = "siak-unla-public";
-$db['second']['dbdriver'] = "mysqli";
-$db['second']['dbprefix'] = '';
-$db['second']['pconnect'] = TRUE;
-$db['second']['db_debug'] = TRUE;
-$db['second']['cache_on'] = FALSE;
-$db['second']['cachedir'] = '';
-$db['second']['char_set'] = 'utf8';
-$db['second']['dbcollat'] = 'utf8_general_ci';
-$db['second']['swap_pre'] = '';
-$db['second']['autoinit'] = TRUE;
-$db['second']['stricton'] = FALSE;
-
-//=======================================
-$db['third']['hostname'] = "localhost";
-$db['third']['username'] = "root";
-$db['third']['password'] = "";
-$db['third']['database'] = "unla-dikti";
-$db['third']['dbdriver'] = "mysqli";
-$db['third']['dbprefix'] = '';
-$db['third']['pconnect'] = TRUE;
-$db['third']['db_debug'] = TRUE;
-$db['third']['cache_on'] = FALSE;
-$db['third']['cachedir'] = '';
-$db['third']['char_set'] = 'utf8';
-$db['third']['dbcollat'] = 'utf8_general_ci';
-$db['third']['swap_pre'] = '';
-$db['third']['autoinit'] = TRUE;
-$db['third']['stricton'] = FALSE; */
