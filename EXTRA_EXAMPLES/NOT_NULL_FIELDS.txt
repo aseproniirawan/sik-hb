@@ -1,0 +1,3 @@
+Field yg ga boleh null
+idpendidikanortu
+stsmtawal

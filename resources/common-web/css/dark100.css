@@ -1,0 +1,248 @@
+/**************************************************
+
+General Screen Styles Airborn
+
+Created by Apollo13 Team
+http://www.apollo13.eu
+
+**************************************************/
+
+/* ------------------------------- 0.BODY SETTINGS --------------------------------*/
+body {
+    margin:0;
+    padding:0;
+    background:none;
+    font-family: Calibri, Arial;
+	font-size:12px;
+	color:#d7d7d7;
+    text-align:left; }
+
+
+/* ------------------------------- 1.LINKS, CLEAR AND PARAGRAPH --------------------------------*/
+p { margin:0 0 24px 0; line-height:17px; }
+.clear { height:0px; clear:both; font-size:1px; }
+
+a:link, a:visited { color:#ffd800; text-decoration:none; }  
+a:hover { color:#fff; text-decoration:none; }
+
+input, textarea { 
+	font-family: Calibri, Arial; color:#707070; font-size:12px; height:14px;
+	padding:5px 5px 5px 5px; background:#363636 url(../gfx/theme2/buttons/input1.gif) left repeat-x; }
+
+
+/* ------------------------------- 2.BODY MAIN STRUCTURE --------------------------------*/
+#root { width:100%; margin:0 auto 0 auto; background:#232323 url(../gfx/theme2/images/bg4.jpg) top center repeat-x; } 
+
+/* H1, H2, H3, H4 */
+h1 { padding:0;	margin:0; text-align:left; font-size:34px; font-weight:bold; color:#fff; letter-spacing:0; background:none; clear:both; }
+h2 { padding:0 0 0 1px;	margin:0; text-align: left;	font-size:16px;	font-weight:bold;	color:#fff; letter-spacing:0; background:none; clear:both; }
+h3 { padding:0;	margin:0; text-align:left; font-weight:bold; color:#fff; letter-spacing:0; background:none; clear:both; }
+h4 { padding:15px 0 0 1px; margin:0; text-align:left; font-size:16px; font-weight:bold; color:#fff; letter-spacing:0;	background:none; clear:both; }
+h1 b, h2 b, h3 b, h4 b { font-weight:bold; }
+
+#header { background:#161616 ; margin:0; padding:0; }
+
+
+#banner { background-color:#161616; }
+#cu3er { width:960px; margin:auto; }
+	
+/* .LOGIN PANEL */
+.LoginPanel { display:none; background:#f2f2f2; } 
+.LoginPanel h1 { letter-spacing:-2px; font-size:38px; color:#666; }
+#LoginContent .headTab { border-bottom:1px solid #CCC; }
+#LoginContent .headTab2 h1 { color:#232323; }
+#LoginContent .headTab2 h2 { color:#666; }
+#LoginContent .blogLeaveComment a:hover { color:#707070; }
+#LoginContent { width:220px; padding:17px 50px 17px 250px; background:#f2f2f2 url(../gfx/theme2/images/lock.jpg) 0px 10px no-repeat; } 
+#LoginContent .blogLeaveComment { padding:0; }
+#LoginContent .blogLeaveComment a { color:#666; }
+#LoginContent .blogLeaveComment a:hover { color:#000; }
+#LoginContent .blogLeaveComment ul li { padding:15px 0 0 0;  }
+#LoginContent .blogLeaveComment ul li #LostPass { display:block; float:right; padding:5px 0 0 0; }
+#LoginContent .blogLeaveComment ul li #inputPerson2 { background:#fff url(../gfx/theme1/buttons/inputPerson.gif) left repeat-x; color:#707070; }
+#LoginContent .blogLeaveComment ul li #inputPass { background:#fff url(../gfx/theme1/buttons/inputPass.gif) left repeat-x; color:#707070; }
+#LoginContent .blogLeaveComment ul li #inputMail2 { background:#fff url(../gfx/theme1/buttons/inputMail.gif) left repeat-x; color:#707070; }
+
+#ForgotContent { width:310px; padding:17px 30px 10px 30px; background:none; } 
+#ForgotContent .headTab { border-bottom:1px solid #CCC; }
+#ForgotContent .headTab2 h1 { color:#232323; }
+#ForgotContent .headTab2 h2 { color:#666; }
+#ForgotContent .blogLeaveComment { padding:0; }
+#ForgotContent .blogLeaveComment ul li { padding:15px 0 0 0; }
+#ForgotContent .blogLeaveComment ul li input { float:left; }
+#ForgotContent .blogLeaveComment ul li #inputMail2 { background:#fff url(../gfx/theme1/buttons/inputMail.gif) left repeat-x; color:#707070; }
+
+/* Menu */
+#menu .ddsmoothmenu ul li a:hover{ color:#ffd800; border-top:1px solid #ffd800; }
+#menu .ddsmoothmenu ul li a.selected{ color:#ffd800; border-top:1px solid #ffd800; }
+
+#menu .ddsmoothmenu ul li ul li a:hover{ border-top:none; } 
+#menu .ddsmoothmenu ul li ul li a.selected{ border-top:none; } 
+
+/* Menu Favs icons */
+#favTab { 
+	color: #343434;
+	padding:0 0 0 0;
+	font-size:12px; }
+#favTab a span { display:none }
+#favTab a { 
+	width:16px;
+	height:16px;
+	display:block;
+	margin:11px 0 0 10px;
+	background:url(../gfx/theme2/menu/favs.gif) no-repeat; }
+#favTab p { 
+	float:right;
+	margin:0;
+	padding:10px 0 0 0; }	
+	
+#favTab .face { float:right; } 
+#favTab .face:hover { background-position:-16px 0; }
+
+#favTab .twit { float:right; background-position:0 -16px; } 
+#favTab .twit:hover { background-position:-16px -16px; }
+
+#favTab .rss { float:right; background-position:0 -32px; } 
+#favTab .rss:hover { background-position:-16px -32px; }
+
+/* Buttons */
+.buttons { width:76px; height:24px; display:block; margin:0; padding:0;	background:url(../gfx/theme2/buttons/buttons.gif) no-repeat;  }
+
+.blogReadmore { width:60px;	height:24px; display:block;	margin:0; padding:0; background:url(../gfx/theme2/buttons/buttons.gif) no-repeat; background-position:0 -120px; width:94px; } 
+.blogReadmore:hover { background-position:-94px -120px; }
+
+/* Container */
+#container { width:960px; margin:0 auto 30px auto; padding:0; background: url(../gfx/theme2/images/bg4.jpg) top center repeat-x; }
+#cPad { padding:0 25px 0 25px; }
+
+#boxHello { background:none; }
+#hello {  width:910px; margin:auto; }
+#hello p { margin:0; padding:0;	color:#f0f0f0; }
+#hello p b { font-weight:bold; }
+
+
+/* Content */
+.headTabCol { border-bottom:1px solid #373737; }
+
+.searchBar2 .BarPad input { width:175px; padding:5px 5px 5px 24px; background:#363636 url(../gfx/theme2/buttons/inputMail.gif) left repeat-x; color:#dfdfdf; float:left;	 }
+.searchBar2 .BarPad #inputSearch, .searchBar2 .BarPad #inputSearch2 { background:#363636 url(../gfx/theme2/buttons/inputSearch.gif) left repeat-x; }
+
+#content table { padding:0; margin:0; }
+#content table td { padding:4px 8px 4px 8px; margin:0; border:1px solid #4a4a4a; background:#2f2f2f; font-weight:bold; text-align:center;  }
+#content table th { padding:8px 8px 8px 8px; margin:0; border:1px solid #646464; background:#444444; text-align:center;  }
+
+/* ------------------------------- 3.HOME PAGE --------------------------------*/
+
+.news .newsI img { margin:0; padding:0; font-size:1px; line-height:0; }
+/* Content Slider */
+/* Main Container */
+/* Window/Masking Styles */
+.window { border:1px solid #6d6d6d;	height:270px; width: 278px; overflow: hidden; position: relative; }
+
+.boxgrid p a:hover { color:#fff; }
+
+/* ------------------------------- 4.BLOG MAIN --------------------------------*/
+.headTab { padding:0 0 15px 0; border-bottom:1px solid #373737; }
+.headTab2 h1 { color:#ffd800; }
+.headTab2 h2 { color:#dfdfdf; }
+.headTab2 b { color:#dfdfdf; }
+	
+#breadcrumb a { color:#bfbfbf; }
+#breadcrumb a:hover { color:#fff; }
+#breadcrumb span { padding:0 3px 0 5px; color:#616161; }
+#breadcrumb .breadcrumbRight a { color:#7b7b7b; }
+#breadcrumb .breadcrumbRight a:hover { color:#fff; }
+
+.blog { border-bottom:1px solid #373737; }
+
+.blogRight .blogRightM ul li { border-bottom:1px solid #373737; }
+
+.blogRight .blogRightM ul li ul li { border-top:1px solid #eaeaea; }
+	
+.blogRight .blogRightMtweet ul li { border-bottom:1px solid #373737;}
+
+.blogRightM2 ul li { border-bottom:1px solid #373737; }
+.blogRightM2 ul li ul li { border-top:1px solid #373737; }
+
+
+/* ------------------------------- 5.BLOG DETAIL --------------------------------*/
+.blog2 .blogMore { border-bottom:1px solid #373737; }
+.blog2 .blogMore ul .blogShare a { color:#fd3f14; } .blog .blogMore ul .blogShare a:hover { color:#fff; }
+
+.blogAbout { margin:20px 0 0 0; padding:15px 15px 15px 15px; background:#1c1c1c; border:1px solid #272727; }
+.blogAbout .blogAboutLeft { float:left; width:80px; border:1px solid #4b4b4b;}
+.blogAbout .blogAboutRight { float:left; width:451px; padding:0 15px 0 15px;}
+.blogAbout .blogAboutRight h2 { padding:1px 0 10px 0; }
+.blogAbout .blogAboutRight p { margin:0; padding:0; }
+
+.blogComments { margin:50px 0 0 0; }
+.blogComments h2 { padding:0 0 0 0; font-size:16px; }
+.blogComments .blogAbout .blogAboutLeft { width:60px; }
+.blogComments .blogAbout .blogAboutRight { width:471px; }
+.blogComments .blogAbout { background:url(../gfx/theme2/images/comment.png) top left no-repeat; border:none; }
+.blogComments .blogAbout .blogAboutRightH { font-size:13px; padding:0 0 9px 0 }
+.blogComments .blogAbout .blogAboutRightH span { float:right; color:#7c7c7c;} .blogComments .blogAbout .blogAboutRightH span a { font-weight:normal; color:#7c7c7c;}
+
+.blogReply { padding:8px 0 0 0; }
+.blogReply img { padding:0 4px 0 0; }
+
+.blogLevel2 .blogAbout { margin:10px 0 0 40px; }
+.blogLevel2 .blogAbout .blogAboutRight { width:431px; }
+.blogLevel3 .blogAbout { margin:10px 0 0 70px; }
+.blogLevel3 .blogAbout .blogAboutRight { width:401px; }
+.blogLevel4 .blogAbout { margin:10px 0 0 100px; }
+.blogLevel4 .blogAbout .blogAboutRight { width:371px; }
+.blogLevel5 .blogAbout { margin:10px 0 0 140px; }
+.blogLevel5 .blogAbout .blogAboutRight { width:331px; }
+.blogLevel6 .blogAbout { margin:10px 0 0 170px; }
+.blogLevel6 .blogAbout .blogAboutRight { width:301px; }
+
+.blogLeaveComment { padding:50px 0 0 0; }
+.blogLeaveComment h2 { border-bottom:1px solid #373737; margin:0 0 15px 0; padding:0 0 10px 0; }
+.blogLeaveComment ul li { padding:0 0 10px 0; color:#979797; }
+.blogLeaveComment input { width:190px; padding:5px 5px 5px 25px; margin:0 8px 0 0; color:#dfdfdf; }
+#inputNews { color:#dfdfdf; background:#424242 url(../gfx/theme2/buttons/inputMail.gif) left repeat-x; }
+.blogLeaveComment #inputPerson { background:#363636 url(../gfx/theme2/buttons/inputPerson.gif) left repeat-x; }
+.blogLeaveComment #inputPerson2 { background:#363636 url(../gfx/theme2/buttons/inputPerson.gif) left repeat-x; }
+.blogLeaveComment #inputPass { background:#363636 url(../gfx/theme2/buttons/inputPass.gif) left repeat-x; }
+.blogLeaveComment #inputPhone { background:#363636 url(../gfx/theme2/buttons/inputPhone.gif) left repeat-x; }
+.blogLeaveComment #inputWeb { background:#363636 url(../gfx/theme2/buttons/inputWeb.gif) left repeat-x; }
+.blogLeaveComment #inputMail { background:#363636 url(../gfx/theme2/buttons/inputMail.gif) left repeat-x; }
+.blogLeaveComment #inputMail2 { background:#363636 url(../gfx/theme2/buttons/inputMail.gif) left repeat-x; }
+.blogLeaveComment textarea { width:565px; height:96px; padding:5px 5px 5px 25px; color:#d9d9d9; background:#363636 url(../gfx/theme2/buttons/textarea.gif) top left repeat-x;  }
+
+
+/* ------------------------------- 6.PORTFOLIO --------------------------------*/
+#portfolio #BlogList a { height:8px; width:8px; font-family:tahoma; font-size:7px; padding:0 4px 0 4px; margin:0 4px 0 4px; background:url(../gfx/theme2/images/bullet2.png); }
+#portfolio #BlogList a:hover { background:url(../gfx/theme2/images/bullet.png); }
+#portfolio #BlogList .bOff { background:url(../gfx/theme2/images/bullet.png); }
+#portfolio #BlogList a span { display:none; }
+
+#portfolioList span { padding:0 5px 0 8px; color:#616161; }
+
+.projectLink { padding:15px 0 0 0; height:42px; font-size:16px; font-weight:bold; border-bottom:1px solid #373737; text-align:center; }
+
+#portfolioDetailHead h1 { color:#ffd800; }
+
+
+/* ------------------------------- 7.FULL PAGE --------------------------------*/
+.fullContent { padding:15px 0 0 0; }
+.fullContent h1, .blog2 .blogText h1, .blog .blogText h1, .blogAbout h1, .blogComments h1, .blogLeaveComment h1 { font-size:18px; padding:0 0 15px 0; color:#fff;  }
+.fullContent h2, .blog2 .blogText h2, .blog .blogText h2, .blogAbout h2, .blogComments h2, .blogLeaveComment h2 { font-size:16px; padding:0 0 15px 0; color:#fff;  }
+.fullContent h3, .blog2 .blogText h3, .blog .blogText h3, .blogAbout h3, .blogComments h3, .blogLeaveComment h3 { font-size:14px; padding:0 0 15px 0; color:#fff;  }
+.fullContent h4, .blog2 .blogText h4, .blog .blogText h4, .blogAbout h4, .blogComments h4, .blogLeaveComment h4 { font-size:12px; padding:0 0 15px 0; color:#fff;  }
+
+
+/* ------------------------------- 8.ERROR + SITEMAP --------------------------------*/
+
+
+
+/* ------------------------------- 9.CONTACT --------------------------------*/
+.infoline { color:#ffd800 }
+
+
+/* ------------------------------- 10.FOOTER --------------------------------*/
+#footer {  background: url(../gfx/theme2/images/bg4.jpg) top center repeat-x; }
+#footer h2 { border-bottom:1px solid #434343; }
+
+#footerCopy { border-top:1px solid #434343; }

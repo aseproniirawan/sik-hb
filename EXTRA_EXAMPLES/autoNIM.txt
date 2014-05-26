@@ -1,0 +1,11 @@
+/*
+	$q = "select IFNULL(
+						(select MAX(
+							CAST(
+								SUBSTR(nim, 11, 4)
+							AS UNSIGNED))
+						from mahasiswa 
+						WHERE SUBSTR(nim, 1, 10) = '4115202010')
+					,0) 
+				+ 1 as num";
+	*/

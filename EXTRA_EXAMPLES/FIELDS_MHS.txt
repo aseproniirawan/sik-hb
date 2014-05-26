@@ -1,0 +1,25 @@
+$$$$$$$$ PERSONAL
+cb.wn-mhs
+tf.telp-mhs
+tf.hp-mhs
+tf.alamat_asal-mhs
+tf.kel_asal-mhs
+tf.kec_asal-mhs
+tf.kdkota_asal-mhs
+tf.kdpos_asal-mhs
+tf.alamat_surat-mhs
+tf.kel_surat-mhs
+tf.kec_surat-mhs
+tf.kdkota_surat-mhs
+tf.kdpos_surat-mhs
+
+$$$$ ORTU
+tf.namaortu
+cb.jobortu
+cb.eduortu
+tf.alamatortu
+tf.kelortu
+tf.kecortu
+tf.kdkotaortu
+tf.kdposortu
+

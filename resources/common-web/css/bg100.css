@@ -1,0 +1,90 @@
+/**************************************************
+
+General Screen Styles Airborn
+
+Created by Apollo13 Team
+http://www.apollo13.eu
+
+**************************************************/
+
+/* ------------------------------- 0.BODY SETTINGS --------------------------------*/
+body {
+    margin:0;
+    padding:0;
+    background:none;
+    font-family: Calibri, Arial;
+	font-size:12px;
+	color:#545454;
+    text-align:left; }
+
+
+
+/* ------------------------------- 1.LINKS, CLEAR AND PARAGRAPH --------------------------------*/
+a:link, a:visited { color:#2786c2; text-decoration:none; }  
+a:hover { color:#313131; text-decoration:none; }
+
+
+/* ------------------------------- 2.BODY MAIN STRUCTURE --------------------------------*/
+#root { width:100%; margin:0 auto 0 auto; background:#f6f6f6; } 
+
+/* Header */
+#header { background:#000 url(../gfx/theme5/images/bg01.jpg) center no-repeat; }
+
+#banner { background-color:transparent; }
+/* Menu Favs icons */
+#favTab { color:white; }
+
+/* Container */
+#container { margin:0 auto 0 auto; padding:0 0 35px 0; background:#f6f6f6; }
+
+/* Menu */
+#menu { padding:0 25px 0 9px; clear:both; background: url(../gfx/theme4/menu/bgmenu.png) top left repeat-x;  color:#fff; font-weight:bold; }
+#menu .on { color:#4d4d4d; }
+#menuTab { width:650px;	float:left; }
+
+#menu .ddsmoothmenu ul li a{ color: #fff; }
+#menu .ddsmoothmenu ul li a:hover{ color:#fff; border-top:1px solid #d5d5d5; }
+#menu .ddsmoothmenu ul li a.selected{ color:#fff; border-top:1px solid #d5d5d5; }
+
+#menu .ddsmoothmenu ul li ul li a:hover{ border-bottom:1px solid #727272; border-top:none; } 
+#menu .ddsmoothmenu ul li ul li a.selected{ border-bottom:1px solid #727272; border-top:none; } 
+
+/* ------------------------------- 3.HOME PAGE --------------------------------*/
+#boxHello { background:none; }
+#hello p { color:#c7c7c7; }
+#hello p a { color:#fff; }
+
+.boxgrid { color:#fff;}
+.boxgrid p a { color:#CCC; }
+.boxgrid p a:hover { color:#fff; }
+
+
+
+/* ------------------------------- 4.BLOG MAIN --------------------------------*/
+
+
+
+/* ------------------------------- 5.BLOG DETAIL --------------------------------*/
+
+
+
+/* ------------------------------- 6.PORTFOLIO --------------------------------*/
+
+
+
+/* ------------------------------- 7.FULL PAGE --------------------------------*/
+
+
+
+/* ------------------------------- 8.ERROR + SITEMAP --------------------------------*/
+
+
+
+/* ------------------------------- 9.CONTACT --------------------------------*/
+
+
+
+/* ------------------------------- 10.FOOTER --------------------------------*/
+#footer { color:#fff; background:#000 url(../gfx/theme5/images/bg01.jpg) top no-repeat; } 
+#footer h2 { border-bottom:1px solid #636363; }
+#footerCopy { border-top:1px solid #636363; }

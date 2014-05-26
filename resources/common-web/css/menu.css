@@ -1,0 +1,74 @@
+/**************************************************
+
+General Screen Styles Airborn
+
+Created by Apollo13 Team
+http://www.apollo13.eu
+
+**************************************************/
+
+/* ------------------------------- 0.BODY SETTINGS --------------------------------*/
+body {
+    margin:0;
+    padding:0;
+    background:#f6f6f6 url(../gfx/theme5/images/pattern.gif);
+    font-family: Calibri, Arial;
+	font-size:12px;
+	color:#545454;
+    text-align:left; }
+
+
+/* ------------------------------- 1.LINKS, CLEAR AND PARAGRAPH --------------------------------*/
+p { margin:0 0 24px 0; line-height:17px; }
+.clear { height:0px; clear:both; font-size:1px; }
+
+a:link, a:visited { color:#2786c2; text-decoration:none; }  
+a:hover { color:#313131; text-decoration:none; }
+
+input, textarea { 
+	font-family: Calibri, Arial; color:#707070; font-size:12px; height:14px;
+	padding:5px 5px 5px 5px; background:#fff url(../gfx/theme1/buttons/input1.gif) left repeat-x; }
+
+/* ------------------------------- 2.BODY MAIN STRUCTURE --------------------------------*/
+#root { width:100%; margin:0; }
+
+#searchBar { display:none; }
+
+/* Menu RIGHT-TOP */
+#menu { width:960px; position:absolute; clear:none; padding:0; margin:0; background:none; }
+#menu .on { color:#4d4d4d; }
+#menuTab { position:absolute; width:auto; right:20px; top:33px; background:none; }
+
+#menu .ddsmoothmenu ul li a{ background:none; }
+#menu .ddsmoothmenu ul li a:hover{ border:none; padding: 12px 15px 13px 15px;}
+#menu .ddsmoothmenu ul li a.selected{ border:none; padding: 12px 15px 13px 15px; }
+#menu .ddsmoothmenu ul li ul li a{ border-bottom:1px solid #323232; }
+#menu .ddsmoothmenu ul li ul li a:hover{ border-bottom:1px solid #323232; }
+#menu .ddsmoothmenu ul li ul li a.selected{ border-bottom:1px solid #323232; }
+
+/* Menu Favs icons */
+#favTab { display:none; }
+
+/* ------------------------------- 3.HOME PAGE --------------------------------*/
+
+
+/* ------------------------------- 4.BLOG MAIN --------------------------------*/
+
+
+/* ------------------------------- 5.BLOG DETAIL --------------------------------*/
+
+
+/* ------------------------------- 6.PORTFOLIO --------------------------------*/
+
+
+/* ------------------------------- 7.FULL PAGE --------------------------------*/
+
+
+/* ------------------------------- 8.ERROR + SITEMAP --------------------------------*/
+
+
+/* ------------------------------- 9.CONTACT --------------------------------*/
+
+
+/* ------------------------------- 10.FOOTER --------------------------------*/
+
